@@ -40,4 +40,4 @@
 
 1. **Obtenha os arquivos do projeto:**
    ```bash
-   git clone [https://github.com/emanuelipereira12-dev/projeto-integrador-2026.git](https://github.com/emanuelipereira12-dev/projeto-integrador-2026.git)
+   git clone [https://github.com/emanuelipereira12-dev/loc-garden.git](https://github.com/emanuelipereira12-dev/loc-garden.git)
