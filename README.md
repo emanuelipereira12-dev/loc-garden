@@ -23,7 +23,7 @@
 ## ✨ 4. Principais Funcionalidades
 - 🚜 **Vitrine Principal (Hero):** Apresentação em destaque de equipamentos com chamadas diretas para locação e informações.
 - 🌿 **Navegação por Categorias:** Organização visual das áreas de atuação (*Corte e Acabamento*, *Poda e Manejo*, *Limpeza*, *Manutenção do Solo*, *Tratamento* e *Outros*).
-- 🌾 **Catálogo de Destaques e Atendimento Rápido:** Exibição dos principais equipamentos (*Giro Zero*, *Carrinho de Cortar Grama* e *Roçadeira*) com botão de contato direto via **WhatsApp** com mensagem personalizada
+- 🌾 **Catálogo de Destaques e Atendimento Rápido:** Exibição dos principais equipamentos (*Giro Zero*, *Carrinho de Cortar Grama* e *Roçadeira*) com botão de contato direto via **WhatsApp** com mensagem personalizada.
 - 📅 **Agendamento Online (`salvar_contato.php`):** Formulário interativo onde o cliente escolhe o equipamento desejado, informa seus dados e registra a solicitação diretamente no banco de dados MySQL.
 - 🔐 **Área do Cliente (`login.html` e `auth.php`):** Tela dedicada para cadastro de novos usuários (com criptografia de senha via `password_hash`) e autenticação de clientes cadastrados.
 
@@ -39,5 +39,3 @@
 ## ⚙️ 6. Instruções para Instalação, Configuração e Execução
 
 1. **Obtenha os arquivos do projeto:**
-   ```bash
-   git clone [https://github.com/emanuelipereira12-dev/loc-garden](https://github.com/emanuelipereira12-dev/loc-garden)
