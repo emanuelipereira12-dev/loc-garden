@@ -1,2 +1,2 @@
-# projeto-integrador-2026
+# loc-garden
 Projeto Integrador 2026 - Faculdade EEP
