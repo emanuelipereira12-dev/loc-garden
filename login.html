@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocGarden - Acesso do Cliente</title>
+  <link rel="icon" type="image/jpeg" href="img/LOCGARDEN.jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  <header class="top-bar">
+    <a href="inicio.html"><img src="img/LOCGARDEN.jpeg" alt="LocGarden"></a>
+    <a href="inicio.html" class="btn-voltar">&larr; Voltar para o início</a>
+  </header>
+
+  <main class="auth-container">
+    <!-- Bloco de Login -->
+    <section class="auth-card">
+      <h2>Já sou cliente</h2>
+      <p class="sub">Acesse sua conta para acompanhar suas locações.</p>
+      <form action="auth.php" method="POST">
+        <input type="hidden" name="acao" value="login">
+        <div class="campo">
+          <label for="login-email">E-mail</label>
+          <input type="email" id="login-email" name="email" placeholder="seuemail@exemplo.com" required>
+        </div>
+        <div class="campo">
+          <label for="login-senha">Senha</label>
+          <input type="password" id="login-senha" name="senha" placeholder="••••••••" required>
+        </div>
+        <button type="submit" class="btn-submit">Entrar</button>
+      </form>
+    </section>
+
+    <!-- Bloco de Cadastro -->
+    <section class="auth-card cadastro">
+      <h2>Criar conta</h2>
+      <p class="sub">Cadastre-se rapidamente para agendar equipamentos.</p>
+      <form action="auth.php" method="POST">
+        <input type="hidden" name="acao" value="cadastro">
+        <div class="campo">
+          <label for="cad-nome">Nome completo</label>
+          <input type="text" id="cad-nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+        <div class="campo">
+          <label for="cad-email">E-mail</label>
+          <input type="email" id="cad-email" name="email" placeholder="seuemail@exemplo.com" required>
+        </div>
+        <div class="campo">
+          <label for="cad-senha">Senha</label>
+          <input type="password" id="cad-senha" name="senha" placeholder="Crie uma senha" required>
+        </div>
+        <button type="submit" class="btn-submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer-bar">
+    &copy; 2026 LOCGARDEN. TODOS OS DIREITOS RESERVADOS. | CNPJ: 27.659.695/0001-74
+  </footer>
+
+</body>
+</html>
