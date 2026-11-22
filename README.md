@@ -39,3 +39,5 @@
 ## ⚙️ 6. Instruções para Instalação, Configuração e Execução
 
 1. **Obtenha os arquivos do projeto:**
+   ```bash
+   git clone [https://github.com/emanuelipereira12-dev/loc-garden.git](https://github.com/emanuelipereira12-dev/loc-garden.git)
