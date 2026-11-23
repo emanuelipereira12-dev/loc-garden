@@ -36,7 +36,17 @@
 
 ---
 
-## ⚙️ 6. Instruções para Instalação, Configuração e Execução
+## 🔐 6. Painel Administrativo
+
+O sistema conta com uma área restrita para visualização das solicitações de locação e agendamentos enviados pelo formulário de contato.
+
+* **URL de acesso:** `http://localhost/LOCGARDEN/admin.php`
+* **Usuário:** `admin`
+* **Senha:** `locgarden123`
+
+---
+
+## ⚙️ 7. Instruções para Instalação, Configuração e Execução
 
 1. **Obtenha os arquivos do projeto:**
    ```bash
